@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20px;
+    background-image: url("waterfall.jpg");
+    background-size: cover;
+}
+
+#calculator{
+    display: flex;
+    color: white;
+    justify-content: center;
+    width: 200px;
+    height: 340px;
+    padding: 60px;
+    border: 8px solid; 
+    border-radius: 20px; 
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+}
+
+#screen{
+    border: 7px solid; 
+    width: 220px;
+    height: 55px;   
+}
