@@ -5,7 +5,7 @@ body{
     margin-top: 150px;
     margin-bottom: 150px;
     font-family: 'Franklin Gothic Medium';
-    font-size: 20px;
+    font-size: 30px;
     background-image: url("waterfall.jpg");
     background-size: cover;
 }
@@ -14,11 +14,13 @@ body{
     display: flex;
     color: white;
     justify-content: center;
-    width: 200px;
-    height: 340px;
-    padding: 60px;
-    border: 8px solid; 
-    border-radius: 20px; 
+    width: 300px;
+    height: 500px;
+    padding: 50px;
+    border: 9px solid; 
+    border-radius: 40px;
+    background-color: rgb(0, 0, 0, .6); 
+
 }
 
 #content{
@@ -34,6 +36,27 @@ body{
 
 #screen{
     border: 7px solid; 
-    width: 220px;
-    height: 55px;   
+    width: 310px;
+    height: 100px;  
+}
+
+.top{
+    margin-top: 20mm;
+}
+
+.buttons{
+    border: solid;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2mm;
+}
+
+.zero{
+    border: solid;
+    height: 60px;
+    width: 150px;
 }
