@@ -10,13 +10,12 @@ function inputChange (event){
     screen.innerText += buttonText;
 }
 
-// This is the second step to getting the second function.
+// This is the step to getting the second function.
 function addAllEventListeners (array){
     for (let i=0; i < array.length; i++){
         array[i].addEventListener('click', inputChange)
     }
 }
-
 addAllEventListeners(numbers);
 
 // CLEAR / delete BUTTON FUNCTION (the AC button)
@@ -26,5 +25,13 @@ function clearButton (){
     screen.innerText = " "
 }
 allClear.addEventListener('click', clearButton)
+
+// EQUAL SIGN Button FUNCTION (the = button)
+const equal = document.querySelector('.equals')
+
+function equalSign (){
+    //
+}
+equal.addEventListener('click', equalSign)
 
 
